@@ -1,32 +1,37 @@
 function makeArray(item1, item2, item3) {
-  return [item1, item2, item3]
+  //Should return an array with the three items
 }
 
 function addToArray(list, item) {
-  list.push(item)
-  return list
+  //Taking an existing array and a new item as input
+  //Return an array with the item added to it (hint: .push())
 }
 
 function deleteFromArray(list) {
-  list.pop()
-  return list
+  //Taking an existing array as input
+  //Return an array with the last item removed from it (hint: .pop())
 }
 
 function getLength(list) {
-  return list.length
+  //Taking an array as input
+  //Return the length of the array
 }
 
 function getFirstItem(list) {
-  return list[0]
+  //Taking an array as input
+  //Return the first item of the array
 }
 
 function getLastItem(list){
-  return list[list.length - 1]
+  //Taking an array as input
+  //Return the last item of the array
 }
 
 function makeExciting(list) {
-  var exciting = list.map(function(item) {
-    return item.toUpperCase() + '!!!'
-  })
-  return exciting
+  //Taking an array as input
+  //Create a new, empty array
+  //for every item in the input array
+    //capitalize it, and add "!!!" to the end
+    //push it to the new array
+  //return the new array
 }

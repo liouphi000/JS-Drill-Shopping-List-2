@@ -71,3 +71,21 @@ console.log(beatles) //"John", "Ringo", "Paul"
 ```
 Sorry, George. As you can see, `pop()` only removes from the end of an array. To remove from somewhere else in the array, see this thread: http://stackoverflow.com/questions/5767325/how-to-remove-a-particular-element-from-an-array-in-javascript
 
+#### Looping through an array
+To loop through an array, we can use a for loop.
+Let's say we want to loop through the migos array, and print out a message for each migos.
+```javascript
+var migos = ["Takeoff", "Quavo", "Offset"]
+for (var i = 0; i < migos.length; i++) { //notice how we use migos.length
+  console.log(migos[i] + " is a member of the Migos!") //notice how we use migos[i] to access each item in the array
+}
+//Takeoff is a member of the Migos!
+//Quavo is a member of the Migos!
+//Offset is a member of the Migos!
+```
+
+## Exercise
+1. Fork and clone the exercise onto your local computer
+2. Open `index.html` in the browser. Your task it to make all the buttons work (the reset button is already done for you).
+3. Open `scripts/main.js` and start filling out the functions!
+
